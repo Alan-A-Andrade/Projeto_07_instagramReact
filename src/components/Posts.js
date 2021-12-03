@@ -5,7 +5,7 @@ function Post(props) {
     <div className="post">
       <div className="topo">
         <div className="usuario">
-          <img src={props.userAvatar} />
+          <img src={props.userAvatar} alt={props.userName} />
           {props.userName}
         </div>
         <div className="acoes">
@@ -14,7 +14,7 @@ function Post(props) {
       </div>
 
       <div className="conteudo">
-        <img src={props.postContent} />
+        <img src={props.postContent} alt={props.postContent.slice(11, props.postContent.indexOf("."))} />
       </div>
 
       <div className="fundo">
@@ -30,7 +30,7 @@ function Post(props) {
         </div>
 
         <div className="curtidas">
-          <img src={props.lastLikeUserAvatar} />
+          <img src={props.lastLikeUserAvatar} alt={props.lastLikeUserName} />
           <div className="texto">
             Curtido por <strong>{props.lastLikeUserName}</strong> e <strong>outras {props.numLikes} pessoas</strong>
           </div>
