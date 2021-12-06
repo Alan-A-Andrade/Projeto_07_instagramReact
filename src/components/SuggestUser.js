@@ -1,9 +1,9 @@
-import { SugestedUsers } from "./data/data";
+import { SuggestedUsers } from "./data/data";
 
 
 
 
-function SugestUser(props) {
+function SuggestUser(props) {
     return (
         <div className="sugestao">
             <div className="usuario">
@@ -20,14 +20,10 @@ function SugestUser(props) {
 }
 
 
-export default function Sugestions() {
+export default function Suggestions() {
     return (
-        <div className="sugestoes">
-            <div className="titulo">
-                Sugestões para você
-                <div>Ver tudo</div>
-            </div>
-            {SugestedUsers.map(element => <SugestUser userAvatar={element.avatar} userName={element.usuario} reason={(element.razao)} key={element.key} />)}
+        <div>
+            {SuggestedUsers.map(element => <SuggestUser userAvatar={element.avatar} userName={element.usuario} reason={(element.razao)} key={element.key} />)}
         </div>
     )
 }

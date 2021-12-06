@@ -14,7 +14,7 @@ export const userFeed = [
     { key: 2, usuario: "barked", avatar: "assets/img/barked.svg", postImg: "assets/img/dog.svg", lastUser: "adorable_animals", lastUserAvatar: "assets/img/adorable_animals.svg", numCurtidas: "99.159" },
 ]
 
-export const SugestedUsers = [
+export const SuggestedUsers = [
     { key: 1, usuario: "bad.vibes.memes", avatar: "assets/img/bad.vibes.memes.svg", razao: "Segue você" },
     { key: 2, usuario: "chibirdart", avatar: "assets/img/chibirdart.svg", razao: "Segue você" },
     { key: 3, usuario: "razoesparaacreditar", avatar: "assets/img/razoesparaacreditar.svg", razao: "Novo no Instagram" },

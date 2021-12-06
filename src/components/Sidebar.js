@@ -1,10 +1,9 @@
-import Sugestions from "./SugestUser"
+import Suggestions from "./SuggestUser"
 import { User } from "./data/data"
 
 export default function Sidebar() {
   return (
     <div className="sidebar">
-      <div>
       <div className="usuario">
         <img src={User.avatar} alt={User.usuario} />
         <div className="texto">
@@ -19,7 +18,7 @@ export default function Sidebar() {
           Sugestões para você
           <div>Ver tudo</div>
         </div>
-        <Sugestions />
+        <Suggestions />
       </div>
 
       <div className="links">
@@ -28,7 +27,6 @@ export default function Sidebar() {
 
       <div className="copyright">
         © 2021 INSTAGRAM DO FACEBOOK
-      </div>
       </div>
     </div>
   )
