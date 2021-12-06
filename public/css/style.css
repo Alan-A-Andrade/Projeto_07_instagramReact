@@ -218,11 +218,11 @@ body {
   margin-bottom: 18px;
 }
 
-.sidebar {
+.sidebar>div {
   padding-top: 24px;
-  position: fixed;
+  position: sticky;
   top: 88px;
-  left: calc(935px + 293px);
+
 }
 
 .sidebar>.usuario {

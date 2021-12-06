@@ -4,6 +4,7 @@ import { User } from "./data/data"
 export default function Sidebar() {
   return (
     <div className="sidebar">
+      <div>
       <div className="usuario">
         <img src={User.avatar} alt={User.usuario} />
         <div className="texto">
@@ -27,6 +28,7 @@ export default function Sidebar() {
 
       <div className="copyright">
         © 2021 INSTAGRAM DO FACEBOOK
+      </div>
       </div>
     </div>
   )
