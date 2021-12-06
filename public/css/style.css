@@ -25,7 +25,8 @@ body {
   z-index: 2;
 }
 
-.navbar ion-icon, .navbar img {
+.navbar ion-icon,
+.navbar img {
   cursor: pointer;
 }
 
@@ -38,7 +39,7 @@ body {
   height: 100%;
 }
 
-.navbar .container > * {
+.navbar .container>* {
   display: flex;
   align-items: center;
   height: 100%;
@@ -121,7 +122,7 @@ body {
   height: 66px;
   width: 66px;
   background-image: url('../assets/img/story-circle.svg');
-  
+
 }
 
 .story .imagem img {
@@ -165,7 +166,8 @@ body {
   font-weight: 500;
 }
 
-.post .topo .usuario, .post .topo .acoes {
+.post .topo .usuario,
+.post .topo .acoes {
   display: flex;
   align-items: center;
 }
@@ -176,7 +178,11 @@ body {
   margin-right: 10px;
 }
 
-.post .usuario, .post .topo img, .post .fundo img, .post ion-icon, .post strong {
+.post .usuario,
+.post .topo img,
+.post .fundo img,
+.post ion-icon,
+.post strong {
   cursor: pointer;
 }
 
@@ -214,22 +220,23 @@ body {
 
 .sidebar {
   padding-top: 24px;
-  position: sticky;
+  position: fixed;
   top: 88px;
+  left: calc(935px + 293px);
 }
 
-.sidebar > .usuario {
+.sidebar>.usuario {
   display: flex;
   align-items: center;
 }
 
-.sidebar > .usuario img {
+.sidebar>.usuario img {
   width: 56px;
   height: 56px;
   border-radius: 50%;
 }
 
-.sidebar > .usuario .texto {
+.sidebar>.usuario .texto {
   display: flex;
   flex-direction: column;
   margin-left: 14px;
@@ -237,7 +244,7 @@ body {
   color: #8E8E8E;
 }
 
-.sidebar > .usuario .texto strong {
+.sidebar>.usuario .texto strong {
   font-weight: 500;
   color: #262626;
 }
@@ -284,10 +291,11 @@ body {
   font-weight: 400;
 }
 
-.links, .copyright {
+.links,
+.copyright {
   font-size: 11px;
   color: #C7C7C7;
-} 
+}
 
 .links {
   margin-top: 40px;
@@ -306,7 +314,8 @@ body {
   cursor: pointer;
 }
 
-.logo-mobile, .instagram-mobile {
+.logo-mobile,
+.instagram-mobile {
   display: none !important;
 }
 
@@ -382,7 +391,8 @@ body {
     display: none;
   }
 
-  .logo-mobile, .instagram-mobile {
+  .logo-mobile,
+  .instagram-mobile {
     display: flex !important;
   }
 
